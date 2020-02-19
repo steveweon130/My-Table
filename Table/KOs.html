@@ -1,0 +1,265 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<title>Most Knock Outs</title>
+		<style>
+			@font-face {
+				font-family: Main;
+				src: url(Names/sonic.otf);
+			}
+			body {
+				background-image:		url('Names/UFC.jpg');
+				background-size:		cover;
+				background-repeat:		no-repeat;
+				background-attachment:	fixed;
+				background-position:	left;
+			}
+			p {
+				font-family:			'Main';
+				color:					White;
+				font-size:				60px;
+				margin-left:			40px;
+			}
+			ul {
+				list-style-type:		none;
+				margin: 				0;
+				padding: 				0;
+				overflow: 				hidden;
+				background-color: 		#14C86E;
+			}
+			li {
+				font-family:			"Helvetica";
+				float:					left;
+			}
+			li a {
+				display: 				block;
+				color:					white;
+				text-align: 			center;
+				padding: 				14px 16px;
+				text-decoration: 		none;
+			}
+			li 	a:hover {
+				background-color: 		#F0000A;
+			}
+			div {
+				background-color: 		white;
+				border:			 		1px solid black;
+				box-shadow:		 		-20px 20px 40px black;
+				padding: 		 		100px;
+				top:              		40px;
+				width:            		40px;	
+				right:					40px;
+			}
+			table, th, td {
+				border-bottom: 			1px solid #DDD;
+				text-align:				center;
+			}
+			table {
+				border-collapse:		collapse;
+				margin-left:			20px;
+			}
+			tr:nth-child(even) {
+				background-color:		#DDD;
+			}
+			tr:nth-child(odd) {
+				background-color:		#EEE;
+			}
+			td:hover {
+				background-color:		#14C86E;	
+				color:					white;
+			}
+			td.Oliveira {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Oliveira {
+				background-image:		url('Names/Oliveira.jpg');
+				background-size:		cover;
+				color:					white;
+			}
+			td.Maia {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Maia {
+				background-image:		url('Names/Maia.jfif');
+				background-size:		cover;
+				color:					white;
+			}
+			td.Gracie {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Gracie {
+				background-image:		url('Names/Gracie.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Diaz {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Diaz {
+				background-image:		url('Names/Diaz.jfif');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Miller {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Miller {
+				background-image:		url('Names/Miller.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Mir {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Mir {
+				background-image:		url('Names/Mir.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Florian {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Florian {
+				background-image:		url('Names/Florian.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Lauzon {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Lauzon {
+				background-image:		url('Names/Lauzon.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.CMiller {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.CMiller {
+				background-image:		url('Names/CMiller.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.Nelson {
+				width:					200px;
+				height:					100px;
+			}
+			td:hover.Nelson {
+				background-image:		url('Names/Nelson.jpg');
+				background-size:		cover;
+				background-position:	left;
+				color:					White;
+			}
+			td.BRA {
+				width:					100px;
+				height:					20px;
+			}
+			td:hover.BRA {
+				background-image:		url('Names/BRA.png');
+				background-size:		cover;
+				background-position:	center;
+				color:					white;
+			}
+			td.USA {
+				width:					100px;
+				height:					20px;
+			}
+			td:hover.USA {
+				background-image:		url('Names/USA.png');
+				background-size:		cover;
+				background-position:	center-right;
+				color:					white;
+			}
+			td.ISL {
+				width:					100px;
+				height:					20px;
+			}
+			td:hover.ISL {
+				background-image:		url('Names/ISL.png');
+				background-size:		cover;
+				background-position:	center;
+				color:					white;
+			}
+			td {
+				width:					50px;
+				height:					20px;
+			}
+			th, td {
+				padding:				10px;
+				text-align:				center;
+				font-family:			"Helvetica";
+			}
+			th {
+				background-color: 		#F0000A;
+				color:					white;
+			}
+			
+		</style>
+	</head>
+	<body> 
+		<ul>
+		  <li><a href="KOs.html">Most Knock Outs</a></li>
+		  <li><a href="news.html">Fastest Knock Outs</a></li>
+		  <li><a href="Submissions.html">Most Submissions</a></li>
+		  <li><a href="about.html">Most Finishes</a></li>
+		</ul>
+		<p>
+			Most Knock Outs in UFC
+		</p>
+		<p>
+			<table>
+				<tr>
+					<th></th><th>Fighter</th><th>Country</th><th>Division/s</th><th>Knockouts</th>
+				</tr>
+				<tr>
+					<td>1.</td><td class="Oliveira">Donald Cerrone</td><td class="BRA">BRA</td><td>Featherweight<br />Lightweight</td><td>13</td>
+				</tr>
+				<tr>
+					<td>2.</td><td class="Maia">Demian Maia</td><td class="BRA">BRA</td><td>Welterweight<br />Middleweight</td><td>11</td>
+				</tr>
+				<tr>
+					<td>3.</td><td class="Miller">Jim Miller</td><td class="USA">USA</td><td>Lightweight<br />Catchweight</td><td>10</td>
+				</tr>
+				<tr>
+					<td rowspan="3">4.</td>
+					<td class="Diaz">Nate Diaz</td><td class="USA">USA</td><td>Lightweight<br />Welterweight</td><td rowspan="3">8</td>
+				</tr>
+				<tr>
+					<td class="Miller">Jim Miller</td><td class="USA">USA</td><td>Lightweight<br />Catchweight</td>
+				</tr>
+				<tr>
+					<td class="Mir">Frank Mir</td><td class="USA">USA</td><td>Heavyweight</td>
+				</tr>
+				<tr>
+					<td rowspan="4">7.</td>
+					<td class="Florian">Kenny Florian</td><td class="USA">USA</td><td>Lightweight<br />Welterweight</td><td rowspan="4">7</td>
+				</tr>
+				<tr>
+					<td class="Lauzon">Joe Lauzon</td><td class="USA">USA</td><td>Lightweight<br />Catchweight</td>
+				</tr>
+				<tr>
+					<td class="CMiller">Cole Miller</td><td class="USA">USA</td><td>Featherweight/Lightweight</td>
+				</tr>
+				<tr>
+					<td class="Nelson">Gunnar Nelson</td><td class="ISL">ISL</td><td>Welterweight</td>
+				</tr>
+			</table>
+		</p>
+	</body>
+</html>
